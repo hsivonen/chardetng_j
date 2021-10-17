@@ -20,6 +20,10 @@ copyright notice.)
 
 A [preliminary jar](https://hsivonen.fi/chardetng_0_0_1.jar) for Java 8 is available.
 
+## Documentation
+
+[Javadoc](https://hsivonen.fi/chardetng_j/doc/)
+
 ## TODO
 
 - [ ] Make the Wasm stack as small as it can be
