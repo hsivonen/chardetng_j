@@ -22,9 +22,9 @@ A [preliminary jar](https://hsivonen.fi/chardetng_0_0_1.jar) for Java 8 is avail
 
 ## TODO
 
-[ ] Make the Wasm stack as small as it can be
-[ ] Make the Wasm memory smaller
-[ ] Demo app
-[ ] Compilation scripts
-[ ] Optimize with Binaryen
-[ ] More docs
+- [ ] Make the Wasm stack as small as it can be
+- [ ] Make the Wasm memory smaller
+- [ ] Demo app
+- [ ] Compilation scripts
+- [ ] Optimize with Binaryen
+- [ ] More docs
