@@ -1,0 +1,1 @@
+package nu.validator.chardetng;

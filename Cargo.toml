@@ -1,0 +1,24 @@
+[package]
+name = "chardetng_j"
+description = "A character encoding detector for legacy Web content"
+version = "0.1.0"
+edition = "2021"
+authors = ["Henri Sivonen <hsivonen@hsivonen.fi>"]
+license = "Apache-2.0 OR MIT"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.release]
+lto = true
+panic = 'abort'
+
+[profile.dev]
+panic = 'abort'
+
+[dependencies]
+chardetng = { path = "../chardetng" }
+encoding_rs = { path = "../encoding_rs", default-features = false }
